@@ -15,6 +15,9 @@ const HomePage: React.FC = () => {
           <Link to="/shape" className="nav-button">
             Go to Shape Page
           </Link>
+          <Link to="/modals" className="nav-button">
+            Go to Modal Demo
+          </Link>
         </div>
       </div>
     </div>

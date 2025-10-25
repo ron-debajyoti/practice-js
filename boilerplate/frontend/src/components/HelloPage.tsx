@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { HelloResponse } from '../types/api';
 import './HelloPage.css';
+// modal demo moved to ModalDemoPage
 
 const HelloPage: React.FC = () => {
   const [message, setMessage] = useState<string>('');
